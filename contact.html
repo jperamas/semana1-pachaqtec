@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackaton Semana 1 | PachaQTec</title>
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="center flex">
+      <h1>
+        <a href="index.html">PachaQtec</a> | <span>Escuela de código</span>
+      </h1>
+      <nav>
+        <a href="index.html">Pregunta 1</a>
+        <a href="pregunta2.html" class="active">Pregunta 2</a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="center">
+      <img class="photo" src="img/logoPachaQTec.png" alt="Logo PachaQTec">
+      <h2>SE PARTE DE_LA COMUNIDAD</h2>
+      <a class="button" href="contacto.html">Contactanos</a>
+    </div>
+  </section>
+  <section>
+    <div class="center">
+      <h4>Hackaton 1</h4>
+      <form action="">
+        <p>Postula y obtén un <strong>10%</strong> de descuento en el programa.</p>
+        <label>Nombre</label>
+        <input class="js-name" type="text">
+        <label>Celular</label>
+        <input class="js-cellphone" type="number" step="1" min="100000" max="999999999">
+        <label>Correo</label>
+        <input class="js-email" type="email">
+        <label>Programa</label>
+        <select class="js-program">
+          <option value="0">Desarrollo Front-End</option>
+          <option value="1">Desarrollo Back-End</option>
+          <option value="2">Desarrollo de Aplicativos Móviles</option>
+          <option value="3">Diseño de Experiencia de Usuario</option>
+          <option value="4">Desarrollo de Videojuegos</option>
+        </select>
+        <input class="js-submit button" type="submit">
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="center">
+      <p>Escuela de código.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

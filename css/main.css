@@ -1,0 +1,112 @@
+body {
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  background-color: #000d29;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.header a {
+  color: inherit;
+}
+
+.header h1 span {
+  font-size: 14px;
+}
+
+.header nav {
+  margin-top: 20px;
+}
+
+.header nav a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.header nav a:hover,
+.header nav a.active{
+  background-color: white;
+  color: #000d29;
+}
+
+.center {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 250px;
+  border-radius: 100px;;
+}
+
+.hero {
+  background-color: #000d29;
+  text-align: center;
+  color: white;
+  padding: 60px 0;
+}
+
+.article {
+  margin-bottom: 60px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #000d29;
+  color: white;
+  padding: 60px;
+}
+
+.button {
+  color: white;
+  display: inline-block;
+  padding: 20px 60px;
+  border-radius: 40px;
+  background-color: #ff1558;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 0 none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff6f98;
+}
+
+form {
+  display: block;
+  width: 40%;
+  margin: 0 auto 60px;
+}
+
+label {
+  display: block;
+  padding: 10px;
+}
+
+input,
+select {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
